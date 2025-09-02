@@ -19,4 +19,4 @@
 
 Благодарю автора Марка Лутца за максимально подробное объяснение тонкостей Python.
 
-Marj Lutz, thank you!
+Mark Lutz, thank you!
