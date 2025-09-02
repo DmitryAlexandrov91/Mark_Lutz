@@ -1,4 +1,4 @@
-from mark_lutz.part_4.exerscises.ex_6 import addDict
+from src.part_4.exerscises.ex_6 import addDict
 
 
 def test_add_dict_for_dict(faker) -> None:

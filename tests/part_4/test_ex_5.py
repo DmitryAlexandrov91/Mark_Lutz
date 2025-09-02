@@ -1,4 +1,4 @@
-from mark_lutz.part_4.exerscises.ex_5 import copyDict
+from src.part_4.exerscises.ex_5 import copyDict
 
 
 def test_copy_dict() -> None:

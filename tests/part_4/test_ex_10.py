@@ -1,5 +1,5 @@
 """Тестирование функций квадратного корня."""
-from mark_lutz.part_4.exerscises.ex_10 import sqrt_math, sqrt_pack, sqrt_pow
+from src.part_4.exerscises.ex_10 import sqrt_math, sqrt_pack, sqrt_pow
 
 
 def test_same_result(faker):

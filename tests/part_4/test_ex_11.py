@@ -1,6 +1,6 @@
 import pytest
 
-from mark_lutz.part_4.exerscises.ex_11 import countdown
+from src.part_4.exerscises.ex_11 import countdown
 
 
 @pytest.fixture
