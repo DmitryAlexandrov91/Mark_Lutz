@@ -1,0 +1,4 @@
+*mark_lutz.code-workspace
+.venv
+.mypy_cache
+.pytest_cache
