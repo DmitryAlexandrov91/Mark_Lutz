@@ -5,3 +5,5 @@ def test_learning() -> None:
     import sys
 
     print(sys.path)
+
+    # Попытка сделать push в гитлаб расширением.
