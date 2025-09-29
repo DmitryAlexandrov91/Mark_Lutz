@@ -5,6 +5,3 @@ def test_learning() -> None:
     import sys
 
     print(sys.path)
-
-    print('Some change for gitlab test')
-    print('Some change for gitlab test')
