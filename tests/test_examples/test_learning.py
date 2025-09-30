@@ -1,9 +1,4 @@
 def test_learning() -> None:
-    """Test for learning something.
+    """Test for learn anything.
     poetry run pytest -vv -s -k test_learning
     """
-    import sys
-
-    print(sys.path)
-
-    # Попытка сделать push в гитлаб расширением.
