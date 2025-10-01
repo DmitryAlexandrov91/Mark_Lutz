@@ -1,6 +1,5 @@
 from math import sqrt
 
-
 test_list = [2, 4, 9, 16, 25]
 
 

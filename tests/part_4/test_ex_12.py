@@ -1,4 +1,6 @@
-from src.part_4.exerscises.ex_12 import recursion_factorial, reduce_factorial, cycle_factorial, math_factorial  # noqa
+from src.part_4.exerscises.ex_12 import (cycle_factorial,  # noqa
+                                         math_factorial, recursion_factorial,
+                                         reduce_factorial)
 
 
 def test_recursion_fact(fabric):

@@ -1,6 +1,8 @@
 import pytest
 
-from src.part_4.exerscises.ex_9 import get_sqrt_for_cycle, get_sqrt_map, get_sqrt_list_compr, get_sqert_gen_expr  # noqa
+from src.part_4.exerscises.ex_9 import (get_sqert_gen_expr,  # noqa
+                                        get_sqrt_for_cycle,
+                                        get_sqrt_list_compr, get_sqrt_map)
 
 
 @pytest.fixture

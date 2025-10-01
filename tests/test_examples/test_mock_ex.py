@@ -1,7 +1,8 @@
 """Mock request example."""
 from http import HTTPStatus
-import pytest
 from unittest.mock import MagicMock
+
+import pytest
 from pytest_mock import MockerFixture
 
 

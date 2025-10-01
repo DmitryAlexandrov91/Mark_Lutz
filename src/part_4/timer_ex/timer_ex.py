@@ -1,6 +1,5 @@
 import time
 
-
 timer = time.perf_counter
 
 

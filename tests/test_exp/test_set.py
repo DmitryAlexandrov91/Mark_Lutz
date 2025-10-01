@@ -1,24 +1,21 @@
 import time
-from random import randint
 from typing import Callable
-
 
 range_exp = range(1, 1_000_001)
 
 
-def set_for_search():
+def set_for_search() -> set[int]:
     """Возвращает множество из миллиона чисел."""
-    set_for_search = set([_ for _ in range_exp])
-    return set_for_search
+    return set([_ for _ in range_exp])
 
 
-def list_for_search():
+def list_for_search() -> list[int]:
     """Возвращает список из миллиона чисел."""
-    list_for_search = [_ for _ in range_exp]
-    return list_for_search
+    return [_ for _ in range_exp]
 
 
 def finder(attemps: int, number: int,  func: Callable):
+    """Функция, высчитывающая скорость поиска по вхождению attempt раз."""
     result = 0
     seq = func()
     for i in range(attemps):
@@ -40,7 +37,7 @@ def test_set_speed() -> None:
     Между списком и множеством из миллиона чисел.
     """
     # rand_num = randint(1, 1_000_001)
-    rand_num = 300
+    rand_num = 500000
 
     set_speed = finder(10000, rand_num,  set_for_search)
 
