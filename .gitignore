@@ -5,3 +5,11 @@
 
 *__pycache__
 __pycache__
+
+
+*.pyc 
+
+/__pycache__
+__pycache__/
+__init__.cpython-313.pyc
+*__init__.cpython-313.pyc
